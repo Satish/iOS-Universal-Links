@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75FD969C1BD0B41600CAC93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD969B1BD0B41600CAC93E /* AppDelegate.swift */; };
+		75FD969E1BD0B41600CAC93E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD969D1BD0B41600CAC93E /* ViewController.swift */; };
+		75FD96A11BD0B41600CAC93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FD969F1BD0B41600CAC93E /* Main.storyboard */; };
+		75FD96A31BD0B41600CAC93E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FD96A21BD0B41600CAC93E /* Images.xcassets */; };
+		75FD96A61BD0B41600CAC93E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75FD96A41BD0B41600CAC93E /* LaunchScreen.xib */; };
+		75FD96B21BD0B41600CAC93E /* ResetPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD96B11BD0B41600CAC93E /* ResetPasswordTests.swift */; };
+		75FD96BE1BD0B46000CAC93E /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD96BD1BD0B46000CAC93E /* JLRoutes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75FD96AC1BD0B41600CAC93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FD968E1BD0B41600CAC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FD96951BD0B41600CAC93E;
+			remoteInfo = ResetPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75FD96961BD0B41600CAC93E /* ResetPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResetPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FD969A1BD0B41600CAC93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FD969B1BD0B41600CAC93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75FD969D1BD0B41600CAC93E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75FD96A01BD0B41600CAC93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75FD96A21BD0B41600CAC93E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75FD96A51BD0B41600CAC93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75FD96AB1BD0B41600CAC93E /* ResetPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResetPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FD96B01BD0B41600CAC93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FD96B11BD0B41600CAC93E /* ResetPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordTests.swift; sourceTree = "<group>"; };
+		75FD96BC1BD0B46000CAC93E /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
+		75FD96BD1BD0B46000CAC93E /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		75FD96BF1BD0B51100CAC93E /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		75FD96C01BD0B8FD00CAC93E /* ResetPassword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ResetPassword.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FD96931BD0B41600CAC93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FD96A81BD0B41600CAC93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FD968D1BD0B41600CAC93E = {
+			isa = PBXGroup;
+			children = (
+				75FD96981BD0B41600CAC93E /* ResetPassword */,
+				75FD96AE1BD0B41600CAC93E /* ResetPasswordTests */,
+				75FD96971BD0B41600CAC93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FD96971BD0B41600CAC93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96961BD0B41600CAC93E /* ResetPassword.app */,
+				75FD96AB1BD0B41600CAC93E /* ResetPasswordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FD96981BD0B41600CAC93E /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96C01BD0B8FD00CAC93E /* ResetPassword.entitlements */,
+				75FD969B1BD0B41600CAC93E /* AppDelegate.swift */,
+				75FD969D1BD0B41600CAC93E /* ViewController.swift */,
+				75FD969F1BD0B41600CAC93E /* Main.storyboard */,
+				75FD96A21BD0B41600CAC93E /* Images.xcassets */,
+				75FD96A41BD0B41600CAC93E /* LaunchScreen.xib */,
+				75FD96991BD0B41600CAC93E /* Supporting Files */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		75FD96991BD0B41600CAC93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96BF1BD0B51100CAC93E /* bridge.h */,
+				75FD96BB1BD0B46000CAC93E /* JLRoutes */,
+				75FD969A1BD0B41600CAC93E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75FD96AE1BD0B41600CAC93E /* ResetPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96B11BD0B41600CAC93E /* ResetPasswordTests.swift */,
+				75FD96AF1BD0B41600CAC93E /* Supporting Files */,
+			);
+			path = ResetPasswordTests;
+			sourceTree = "<group>";
+		};
+		75FD96AF1BD0B41600CAC93E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96B01BD0B41600CAC93E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75FD96BB1BD0B46000CAC93E /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				75FD96BC1BD0B46000CAC93E /* JLRoutes.h */,
+				75FD96BD1BD0B46000CAC93E /* JLRoutes.m */,
+			);
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FD96951BD0B41600CAC93E /* ResetPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FD96B51BD0B41600CAC93E /* Build configuration list for PBXNativeTarget "ResetPassword" */;
+			buildPhases = (
+				75FD96921BD0B41600CAC93E /* Sources */,
+				75FD96931BD0B41600CAC93E /* Frameworks */,
+				75FD96941BD0B41600CAC93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResetPassword;
+			productName = ResetPassword;
+			productReference = 75FD96961BD0B41600CAC93E /* ResetPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FD96AA1BD0B41600CAC93E /* ResetPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FD96B81BD0B41600CAC93E /* Build configuration list for PBXNativeTarget "ResetPasswordTests" */;
+			buildPhases = (
+				75FD96A71BD0B41600CAC93E /* Sources */,
+				75FD96A81BD0B41600CAC93E /* Frameworks */,
+				75FD96A91BD0B41600CAC93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FD96AD1BD0B41600CAC93E /* PBXTargetDependency */,
+			);
+			name = ResetPasswordTests;
+			productName = ResetPasswordTests;
+			productReference = 75FD96AB1BD0B41600CAC93E /* ResetPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FD968E1BD0B41600CAC93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Vinsol;
+				TargetAttributes = {
+					75FD96951BD0B41600CAC93E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 29ECX39VK2;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					75FD96AA1BD0B41600CAC93E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 75FD96951BD0B41600CAC93E;
+					};
+				};
+			};
+			buildConfigurationList = 75FD96911BD0B41600CAC93E /* Build configuration list for PBXProject "ResetPassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75FD968D1BD0B41600CAC93E;
+			productRefGroup = 75FD96971BD0B41600CAC93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FD96951BD0B41600CAC93E /* ResetPassword */,
+				75FD96AA1BD0B41600CAC93E /* ResetPasswordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FD96941BD0B41600CAC93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD96A11BD0B41600CAC93E /* Main.storyboard in Resources */,
+				75FD96A61BD0B41600CAC93E /* LaunchScreen.xib in Resources */,
+				75FD96A31BD0B41600CAC93E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FD96A91BD0B41600CAC93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FD96921BD0B41600CAC93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD96BE1BD0B46000CAC93E /* JLRoutes.m in Sources */,
+				75FD969E1BD0B41600CAC93E /* ViewController.swift in Sources */,
+				75FD969C1BD0B41600CAC93E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FD96A71BD0B41600CAC93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD96B21BD0B41600CAC93E /* ResetPasswordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75FD96AD1BD0B41600CAC93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FD96951BD0B41600CAC93E /* ResetPassword */;
+			targetProxy = 75FD96AC1BD0B41600CAC93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75FD969F1BD0B41600CAC93E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75FD96A01BD0B41600CAC93E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75FD96A41BD0B41600CAC93E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75FD96A51BD0B41600CAC93E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75FD96B31BD0B41600CAC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75FD96B41BD0B41600CAC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75FD96B61BD0B41600CAC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResetPassword/ResetPassword.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ResetPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Debug;
+		};
+		75FD96B71BD0B41600CAC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResetPassword/ResetPassword.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ResetPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Release;
+		};
+		75FD96B91BD0B41600CAC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ResetPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResetPassword.app/ResetPassword";
+			};
+			name = Debug;
+		};
+		75FD96BA1BD0B41600CAC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ResetPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResetPassword.app/ResetPassword";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FD96911BD0B41600CAC93E /* Build configuration list for PBXProject "ResetPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD96B31BD0B41600CAC93E /* Debug */,
+				75FD96B41BD0B41600CAC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FD96B51BD0B41600CAC93E /* Build configuration list for PBXNativeTarget "ResetPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD96B61BD0B41600CAC93E /* Debug */,
+				75FD96B71BD0B41600CAC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FD96B81BD0B41600CAC93E /* Build configuration list for PBXNativeTarget "ResetPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD96B91BD0B41600CAC93E /* Debug */,
+				75FD96BA1BD0B41600CAC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75FD968E1BD0B41600CAC93E /* Project object */;
+}

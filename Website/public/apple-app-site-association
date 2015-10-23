@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "29ECX39VK2.com.vinsol.ResetPassword",
+                "paths": ["/password/reset/*"]
+            }
+        ]
+    }
+}
